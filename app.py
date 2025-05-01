@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 from streamlit_option_menu import option_menu
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 
 # Load Lottie animation from URL
 #def load_lottie_url(url: str):
@@ -85,4 +85,4 @@ elif selected == "About":
     """)
 
 # Style metrics
-style_metric_cards()
+#style_metric_cards()
